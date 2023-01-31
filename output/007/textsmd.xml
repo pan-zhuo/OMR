@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Specific material designation of text -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/textsmd#">
+      <dct:title>MARC21-007: Specific material designation of text</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: braille  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/textsmd#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/textsmd#"/>
+      <skos:prefLabel xml:lang="en">braille</skos:prefLabel>
+      <skos:definition xml:lang="en">Braille text is embossed characters that have been formed by raised dots in six-dot cells; braille is intended for use by the visually impaired.</skos:definition>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/textsmd#c"/>
+   </skos:Concept>
+   <!-- Concept: large print  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/textsmd#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/textsmd#"/>
+      <skos:prefLabel xml:lang="en">large print</skos:prefLabel>
+      <skos:definition xml:lang="en">Large print text is oversized print intended for use by the visually impaired.</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/textsmd#b"/>
+   </skos:Concept>
+   <!-- Concept: other  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/textsmd#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/textsmd#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:definition xml:lang="en">Specific material designation other than regular print, large print, braille, text in looseleaf binder.</skos:definition>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/textsmd#z"/>
+   </skos:Concept>
+   <!-- Concept: regular print  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/textsmd#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/textsmd#"/>
+      <skos:prefLabel xml:lang="en">regular print</skos:prefLabel>
+      <skos:definition xml:lang="en">Regular, eye-readable text.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/textsmd#a"/>
+   </skos:Concept>
+   <!-- Concept: text in looseleaf binder  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/textsmd#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/textsmd#"/>
+      <skos:prefLabel xml:lang="en">text in looseleaf binder</skos:prefLabel>
+      <skos:definition xml:lang="en">Text in a loose-leaf binder.</skos:definition>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/textsmd#d"/>
+   </skos:Concept>
+   <!-- Concept: unspecified  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/textsmd#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/textsmd#"/>
+      <skos:prefLabel xml:lang="en">unspecified</skos:prefLabel>
+      <skos:definition xml:lang="en">Special material designation of the text is not specified.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/textsmd#u"/>
+   </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Special physical characteristics of tactile resource -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/tactilespc#">
+      <dct:title>MARC21-007: Special physical characteristics of tactile resource</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: jumbo or enlarged braille  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/tactilespc#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/tactilespc#"/>
+      <skos:prefLabel xml:lang="en">jumbo or enlarged braille</skos:prefLabel>
+      <skos:definition xml:lang="en">Jumbo or enlarged braille, which is used for braille students and braille readers with reduced tactile sensitivity.</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/tactilespc#b"/>
+   </skos:Concept>
+   <!-- Concept: not applicable  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/tactilespc#n" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/tactilespc#"/>
+      <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+      <skos:definition xml:lang="en">Not braille.</skos:definition>
+      <skos:notation xml:lang="en">n</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/tactilespc#n"/>
+   </skos:Concept>
+   <!-- Concept: other  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/tactilespc#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/tactilespc#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:definition xml:lang="en">Specific physical characteristics other than print/braille, jumbo or enlarged braille.</skos:definition>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/tactilespc#z"/>
+   </skos:Concept>
+   <!-- Concept: print/braille  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/tactilespc#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/tactilespc#"/>
+      <skos:prefLabel xml:lang="en">print/braille</skos:prefLabel>
+      <skos:definition xml:lang="en">Eye-readable print with braille interleaved or embossed.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/tactilespc#a"/>
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/tactilespc#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/tactilespc#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Special physical characteristics are not known.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/tactilespc#u"/>
+   </skos:Concept>
+</rdf:RDF>

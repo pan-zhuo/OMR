@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Quality assurance target(s) of electronic resource -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/electroqat#">
+      <dct:title>MARC21-007: Quality assurance target(s) of electronic resource</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: absent  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/electroqat#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/electroqat#"/>
+      <skos:prefLabel xml:lang="en">absent</skos:prefLabel>
+      <skos:definition xml:lang="en">Quality assurance targets were not included at the time of reformatting and/or are not present in the electronic resource.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/electroqat#a"/>
+   </skos:Concept>
+   <!-- Concept: not applicable  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/electroqat#n" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/electroqat#"/>
+      <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+      <skos:definition xml:lang="en">Inclusion of quality assurance targets is not applicable to this electronic resource.</skos:definition>
+      <skos:notation xml:lang="en">n</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/electroqat#n"/>
+   </skos:Concept>
+   <!-- Concept: present  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/electroqat#p" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/electroqat#"/>
+      <skos:prefLabel xml:lang="en">present</skos:prefLabel>
+      <skos:definition xml:lang="en">One or more quality assurance targets were appropriately included at the time of reformatting and are present in the electronic resource.</skos:definition>
+      <skos:notation xml:lang="en">p</skos:notation>
+      <skos:scopeNote xml:lang="en">Commonly found quality control targets for scanning include the Kodak Q13 or Q14 Color Separation Guide and Gray Scale; Kodak Q60 Color Input Target; AIIM Scanning Test Chart #2; and the RIT Alphanumeric Resolution Test Object. Commonly found quality assurance targets for re-recording/transfer of audio files include reference and azimuth tones.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/electroqat#p"/>
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/electroqat#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/electroqat#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Presence of quality assurance targets in the electronic resource is not known.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/electroqat#u"/>
+   </skos:Concept>
+</rdf:RDF>

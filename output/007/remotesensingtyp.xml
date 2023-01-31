@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Sensor type of remote sensor -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/remotesensingtyp#">
+      <dct:title>MARC21-007: Sensor type of remote sensor</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: active  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/remotesensingtyp#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/remotesensingtyp#"/>
+      <skos:prefLabel xml:lang="en">active</skos:prefLabel>
+      <skos:definition xml:lang="en">Sensor measures the strength of reflections of its transmissions sent to a remote target.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/remotesensingtyp#a"/>
+   </skos:Concept>
+   <!-- Concept: other  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/remotesensingtyp#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/remotesensingtyp#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:definition xml:lang="en">Sensor type other than active, passive.</skos:definition>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/remotesensingtyp#z"/>
+   </skos:Concept>
+   <!-- Concept: passive  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/remotesensingtyp#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/remotesensingtyp#"/>
+      <skos:prefLabel xml:lang="en">passive</skos:prefLabel>
+      <skos:definition xml:lang="en">Sensor measures the strength of transmissions (e.g., radiation) emitted by a remote target without stimulation by the sensor.</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/remotesensingtyp#b"/>
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/remotesensingtyp#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/remotesensingtyp#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Involvement of remote-sensing device in the creation of the transmission it measured is not known.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/remotesensingtyp#u"/>
+   </skos:Concept>
+</rdf:RDF>

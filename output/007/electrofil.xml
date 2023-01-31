@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: File formats of electronic resource -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/electrofil#">
+      <dct:title>MARC21-007: File formats of electronic resource</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: multiple file formats  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/electrofil#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/electrofil#"/>
+      <skos:prefLabel xml:lang="en">multiple file formats</skos:prefLabel>
+      <skos:definition xml:lang="en">Files which comprise the electronic resource are of at least 2 different formats.</skos:definition>
+      <skos:notation xml:lang="en">m</skos:notation>
+      <skos:scopeNote xml:lang="en">E.g., .jpg and .tif; .tif and .txt; .sgml and .wav; etc.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/electrofil#m"/>
+   </skos:Concept>
+   <!-- Concept: one file format  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/electrofil#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/electrofil#"/>
+      <skos:prefLabel xml:lang="en">one file format</skos:prefLabel>
+      <skos:definition xml:lang="en">File(s) which comprise(s)the electronic resource are of the same format or type.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:scopeNote xml:lang="en">E.g., all .jpg; all .tif; all .txt; all .wav; all .mpg; etc.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/electrofil#a"/>
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/electrofil#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/electrofil#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Format(s) of the file(s) which comprise(s) the electronic resource are not known.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/electrofil#u"/>
+   </skos:Concept>
+</rdf:RDF>

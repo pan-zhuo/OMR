@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-008: Relief of map -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/maprel#">
+      <dct:title>MARC21-008: Relief of map</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: bathymetry by isolines  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/maprel#k" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/maprel#"/>
+      <skos:prefLabel xml:lang="en">bathymetry by isolines</skos:prefLabel>
+      <skos:definition xml:lang="en">Underwater relief (depth) shown by isolines (lines that represent constant depths).</skos:definition>
+      <skos:notation xml:lang="en">k</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/maprel#k"/>
+   </skos:Concept>
+   <!-- Concept: bathymetry by soundings  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/maprel#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/maprel#"/>
+      <skos:prefLabel xml:lang="en">bathymetry by soundings</skos:prefLabel>
+      <skos:definition xml:lang="en">Underwater relief (depth) shown by soundings or spot depths.</skos:definition>
+      <skos:notation xml:lang="en">e</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/maprel#e"/>
+   </skos:Concept>
+   <!-- Concept: color [obsolete]  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/maprel#hx" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/maprel#"/>
+      <skos:prefLabel xml:lang="en">color [obsolete]</skos:prefLabel>
+      <skos:notation xml:lang="en">h</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/maprel#hx"/>
+   </skos:Concept>
+   <!-- Concept: contours  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/maprel#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/maprel#"/>
+      <skos:prefLabel xml:lang="en">contours</skos:prefLabel>
+      <skos:definition xml:lang="en">Relief shown by contours.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/maprel#a"/>
+   </skos:Concept>
+   <!-- Concept: form lines  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/maprel#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/maprel#"/>
+      <skos:prefLabel xml:lang="en">form lines</skos:prefLabel>
+      <skos:definition xml:lang="en">Relief shown by form lines.</skos:definition>
+      <skos:notation xml:lang="en">f</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/maprel#f"/>
+   </skos:Concept>
+   <!-- Concept: gradient and bathymetric tints  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/maprel#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/maprel#"/>
+      <skos:prefLabel xml:lang="en">gradient and bathymetric tints</skos:prefLabel>
+      <skos:definition xml:lang="en">Relief shown by gradient or bathymetric tints.</skos:definition>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/maprel#c"/>
+   </skos:Concept>
+   <!-- Concept: hachures  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/maprel#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/maprel#"/>
+      <skos:prefLabel xml:lang="en">hachures</skos:prefLabel>
+      <skos:definition xml:lang="en">Relief shown by hachures (short lines which follow the direction of maximum slope).</skos:definition>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/maprel#d"/>
+   </skos:Concept>
+   <!-- Concept: land forms  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/maprel#j" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/maprel#"/>
+      <skos:prefLabel xml:lang="en">land forms</skos:prefLabel>
+      <skos:definition xml:lang="en">Relief shown by land forms.</skos:definition>
+      <skos:notation xml:lang="en">j</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/maprel#j"/>
+   </skos:Concept>
+   <!-- Concept: no relief shown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/maprel#%23" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/maprel#"/>
+      <skos:prefLabel xml:lang="en">no relief shown</skos:prefLabel>
+      <skos:definition xml:lang="en">No relief shown.</skos:definition>
+      <skos:notation xml:lang="en">#</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/maprel#%23"/>
+   </skos:Concept>
+   <!-- Concept: other  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/maprel#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/maprel#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:definition xml:lang="en">Relief other than contours, shading, gradient and bathymetric tints, hachures, bathymetry by soundings, form lines, spot heights, pictorially, land forms, bathymetry by isolines, rock drawings.</skos:definition>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/maprel#z"/>
+   </skos:Concept>
+   <!-- Concept: pictorially  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/maprel#i" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/maprel#"/>
+      <skos:prefLabel xml:lang="en">pictorially</skos:prefLabel>
+      <skos:definition xml:lang="en">Land forms and other topographic features shown in the correct planimetric position by pictorial symbols representing their appearance from a high oblique view.</skos:definition>
+      <skos:notation xml:lang="en">i</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/maprel#i"/>
+   </skos:Concept>
+   <!-- Concept: rock drawings  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/maprel#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/maprel#"/>
+      <skos:prefLabel xml:lang="en">rock drawings</skos:prefLabel>
+      <skos:definition xml:lang="en">Relief rock drawing.</skos:definition>
+      <skos:notation xml:lang="en">m</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/maprel#m"/>
+   </skos:Concept>
+   <!-- Concept: shading  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/maprel#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/maprel#"/>
+      <skos:prefLabel xml:lang="en">shading</skos:prefLabel>
+      <skos:definition xml:lang="en">Relief shown by shading (generally of a single color).</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/maprel#b"/>
+   </skos:Concept>
+   <!-- Concept: spot heights  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/maprel#g" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/maprel#"/>
+      <skos:prefLabel xml:lang="en">spot heights</skos:prefLabel>
+      <skos:definition xml:lang="en">Relief shown by spot heights.</skos:definition>
+      <skos:notation xml:lang="en">g</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/maprel#g"/>
+   </skos:Concept>
+</rdf:RDF>

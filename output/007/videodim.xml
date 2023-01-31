@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Dimensions of video -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/videodim#">
+      <dct:title>MARC21-007: Dimensions of video</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: 1 in.  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videodim#p" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videodim#"/>
+      <skos:prefLabel xml:lang="en">1 in.</skos:prefLabel>
+      <skos:definition xml:lang="en">1 in.</skos:definition>
+      <skos:notation xml:lang="en">p</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videodim#p"/>
+   </skos:Concept>
+   <!-- Concept: 1/2 in.  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videodim#o" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videodim#"/>
+      <skos:prefLabel xml:lang="en">1/2 in.</skos:prefLabel>
+      <skos:definition xml:lang="en">1/2 in.</skos:definition>
+      <skos:notation xml:lang="en">o</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videodim#o"/>
+   </skos:Concept>
+   <!-- Concept: 1/4 in.  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videodim#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videodim#"/>
+      <skos:prefLabel xml:lang="en">1/4 in.</skos:prefLabel>
+      <skos:definition xml:lang="en">1/4 in.</skos:definition>
+      <skos:notation xml:lang="en">m</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videodim#m"/>
+   </skos:Concept>
+   <!-- Concept: 2 in.  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videodim#q" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videodim#"/>
+      <skos:prefLabel xml:lang="en">2 in.</skos:prefLabel>
+      <skos:definition xml:lang="en">2 in.</skos:definition>
+      <skos:notation xml:lang="en">q</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videodim#q"/>
+   </skos:Concept>
+   <!-- Concept: 3/4 in.  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videodim#r" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videodim#"/>
+      <skos:prefLabel xml:lang="en">3/4 in.</skos:prefLabel>
+      <skos:definition xml:lang="en">3/4 in.</skos:definition>
+      <skos:notation xml:lang="en">r</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videodim#r"/>
+   </skos:Concept>
+   <!-- Concept: 8 mm.  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videodim#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videodim#"/>
+      <skos:prefLabel xml:lang="en">8 mm.</skos:prefLabel>
+      <skos:definition xml:lang="en">8 mm.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videodim#a"/>
+   </skos:Concept>
+   <!-- Concept: other  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videodim#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videodim#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:definition xml:lang="en">Dimensions other than 8 mm., 1/4 in., 1/2 in., 1 in., 2 in., 3/4 in.</skos:definition>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:scopeNote xml:lang="en">Used for videodisc dimensions since standard code values for videodiscs do not yet exist.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videodim#z"/>
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videodim#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videodim#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Width is not known.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videodim#u"/>
+   </skos:Concept>
+</rdf:RDF>

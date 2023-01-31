@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Transposition and arrangement of music -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/musictra#">
+      <dct:title>MARC21-007: Transposition and arrangement of music</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: arrangement  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musictra#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musictra#"/>
+      <skos:prefLabel xml:lang="en">arrangement</skos:prefLabel>
+      <skos:definition xml:lang="en">Item has been adapted as regards medium and/or texture.</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musictra#b"/>
+   </skos:Concept>
+   <!-- Concept: both transposed and arranged  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musictra#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musictra#"/>
+      <skos:prefLabel xml:lang="en">both transposed and arranged</skos:prefLabel>
+      <skos:definition xml:lang="en">Item has been both transposed to a different pitch from the original and has been adapted as regards medium and/or texture.</skos:definition>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musictra#c"/>
+   </skos:Concept>
+   <!-- Concept: not applicable  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musictra#n" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musictra#"/>
+      <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+      <skos:definition xml:lang="en">Item is not notated music.</skos:definition>
+      <skos:notation xml:lang="en">n</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musictra#n"/>
+   </skos:Concept>
+   <!-- Concept: not arrangement or transposition or not specified  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musictra#%23" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musictra#"/>
+      <skos:prefLabel xml:lang="en">not arrangement or transposition or not specified</skos:prefLabel>
+      <skos:definition xml:lang="en">Not arrangements or the transposition of the item is not specified.</skos:definition>
+      <skos:notation xml:lang="en">#</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musictra#%23"/>
+   </skos:Concept>
+   <!-- Concept: transposition  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musictra#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musictra#"/>
+      <skos:prefLabel xml:lang="en">transposition</skos:prefLabel>
+      <skos:definition xml:lang="en">Item has been transposed to a different pitch from the original.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musictra#a"/>
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musictra#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musictra#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Unknown whether the item is a transposition or arrangement.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musictra#u"/>
+   </skos:Concept>
+</rdf:RDF>

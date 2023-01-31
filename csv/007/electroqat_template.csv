@@ -1,0 +1,23 @@
+reg_id,uri,status,name,"lexicalAlias (en)","preferred label (en)","alternative label (en)","hidden label (en)","notation (en)","ToolkitLabel (en)","note (en)","definition (en)","ToolkitDefinition (en)","example (en)","scope note (en)","editorial note (en)","change note (en)","history note (en)","has broader","has narrower","related to","is in mapping relation with","has broader match","has narrower match","has related match","has close match","has exact match","top concept of","has subject","is subject of","is primary subject of","has primary subject","subject indicator","symbolic label","preferred symbolic label","alternative symbolic label"
+uri,reg:uri,reg:status,reg:name,reg:lexicalAlias,skos:prefLabel,skos:altLabel,skos:hiddenLabel,skos:notation,rdakit:toolkitLabel,skos:note,skos:definition,rdakit:toolkitDefinition,skos:example,skos:scopeNote,skos:editorialNote,skos:changeNote,skos:historyNote,skos:broader,skos:narrower,skos:related,skos:mappingRelation,skos:broadMatch,skos:narrowMatch,skos:relatedMatch,skos:closeMatch,skos:exactMatch,skos:topConceptOf,skos:subject,skos:isSubjectOf,skos:isPrimarySubjectOf,skos:primarySubject,skos:subjectIndicator,skos:symbol,skos:prefSymbol,skos:altSymbol
+lang,en,,,en,en,en,en,en,en,en,en,en,en,en,en,en,en,,,,,,,,,,,,,,,,,,
+type,uri,property,property,,,,,,,,,,,,,,,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property
+meta,token,electroqat,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,label,"MARC21-007: Quality assurance target(s) of electronic resource",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,vocabulary_id,247,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,uri,http://marc21rdf.info/terms/electroqat#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,note,"Whether quality assurance targets have been included appropriately at the time of reformatting/creation of the electronic resource. Targets are standard reference points which can be interpreted by a human or machine and used to measure resolution, color, faithfulness of representation to the original, etc.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,tags,"Libraries, MARC21",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,base_domain,http://marc21rdf.info/terms/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,type,vocabulary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,agent_id,67,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,electroqat,http://marc21rdf.info/terms/electroqat#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,owl,http://www.w3.org/2002/07/owl#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,rdfs,http://www.w3.org/2000/01/rdf-schema#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,reg,http://metadataregistry.org/uri/profile/RegAp/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,skos,http://www.w3.org/2004/02/skos/core#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4265,electroqat:a,1,,,absent,,,a,,,"Quality assurance targets were not included at the time of reformatting and/or are not present in the electronic resource.",,,,,,,,,,,,,,,,,,,,,,,,
+4266,electroqat:n,1,,,"not applicable",,,n,,,"Inclusion of quality assurance targets is not applicable to this electronic resource.",,,,,,,,,,,,,,,,,,,,,,,,
+4267,electroqat:p,1,,,present,,,p,,,"One or more quality assurance targets were appropriately included at the time of reformatting and are present in the electronic resource.",,,"Commonly found quality control targets for scanning include the Kodak Q13 or Q14 Color Separation Guide and Gray Scale; Kodak Q60 Color Input Target; AIIM Scanning Test Chart #2; and the RIT Alphanumeric Resolution Test Object. Commonly found quality assurance targets for re-recording/transfer of audio files include reference and azimuth tones.",,,,,,,,,,,,,,,,,,,,,
+4268,electroqat:u,1,,,unknown,,,u,,,"Presence of quality assurance targets in the electronic resource is not known.",,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

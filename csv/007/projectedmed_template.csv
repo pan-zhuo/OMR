@@ -1,0 +1,31 @@
+reg_id,uri,status,name,"lexicalAlias (en)","preferred label (en)","alternative label (en)","hidden label (en)","notation (en)","ToolkitLabel (en)","note (en)","definition (en)","ToolkitDefinition (en)","example (en)","scope note (en)","editorial note (en)","change note (en)","history note (en)","has broader","has narrower","related to","is in mapping relation with","has broader match","has narrower match","has related match","has close match","has exact match","top concept of","has subject","is subject of","is primary subject of","has primary subject","subject indicator","symbolic label","preferred symbolic label","alternative symbolic label"
+uri,reg:uri,reg:status,reg:name,reg:lexicalAlias,skos:prefLabel,skos:altLabel,skos:hiddenLabel,skos:notation,rdakit:toolkitLabel,skos:note,skos:definition,rdakit:toolkitDefinition,skos:example,skos:scopeNote,skos:editorialNote,skos:changeNote,skos:historyNote,skos:broader,skos:narrower,skos:related,skos:mappingRelation,skos:broadMatch,skos:narrowMatch,skos:relatedMatch,skos:closeMatch,skos:exactMatch,skos:topConceptOf,skos:subject,skos:isSubjectOf,skos:isPrimarySubjectOf,skos:primarySubject,skos:subjectIndicator,skos:symbol,skos:prefSymbol,skos:altSymbol
+lang,en,,,en,en,en,en,en,en,en,en,en,en,en,en,en,en,,,,,,,,,,,,,,,,,,
+type,uri,property,property,,,,,,,,,,,,,,,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property
+meta,token,projectedmed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,label,"MARC21-007: Medium for sound of projected media",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,vocabulary_id,229,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,uri,http://marc21rdf.info/terms/projectedmed#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,note,"Specific medium used to carry the sound of an item (whether the sound is on the projected graphic or separate) and the type of sound playback required for the item.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,tags,"Libraries, MARC21",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,base_domain,http://marc21rdf.info/terms/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,type,vocabulary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,agent_id,67,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,projectedmed,http://marc21rdf.info/terms/projectedmed#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,owl,http://www.w3.org/2002/07/owl#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,rdfs,http://www.w3.org/2000/01/rdf-schema#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,reg,http://metadataregistry.org/uri/profile/RegAp/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,skos,http://www.w3.org/2004/02/skos/core#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4009,"http://marc21rdf.info/terms/projectedmed#%23",1,,,"no sound (silent)",,,#,,,"Sound is not present.",,,,,,,,,,,,,,,,,,,,,,,,
+4010,"http://marc21rdf.info/terms/projectedmed#a",1,,,"optical sound track on motion picture film",,,a,,,"Sound to accompany a projected graphic is carried on an optical track that is part of a film.",,,"For 16 and 35 mm. films, it is usually assumed that sound is carried on an optical track.",,,,,,,,,,,,,,,,,,,,,
+4011,"http://marc21rdf.info/terms/projectedmed#b",1,,,"magnetic sound track on motion picture film",,,b,,,"Sound to accompany a projected graphic is carried on a magnetic track that is part of the film.",,,"70 mm. motion picture films often include magnetic sound tracks.",,,,,,,,,,,,,,,,,,,,,
+4012,"http://marc21rdf.info/terms/projectedmed#c",1,,,"magnetic audio tape in cartridge",,,c,,,"Sound to accompany an item is carried on a magnetic audio tape cartridge.",,,,,,,,,,,,,,,,,,,,,,,,
+4013,"http://marc21rdf.info/terms/projectedmed#d",1,,,"sound disc",,,d,,,"Sound to accompany an item is carried on a sound disc.",,,"This method of providing for sound is typically used with filmstrips. Sound discs include 7, 10, and 12 in. vinyl phonograph records and 4 3/4 in. compact discs.",,,,,,,,,,,,,,,,,,,,,
+4014,"http://marc21rdf.info/terms/projectedmed#e",1,,,"magnetic audio tape on reel",,,e,,,"Sound to accompany an item is carried on a reel of magnetic audio tape.",,,,,,,,,,,,,,,,,,,,,,,,
+4015,"http://marc21rdf.info/terms/projectedmed#f",1,,,"magnetic audio tape in cassette",,,f,,,"Sound to accompany an item is carried on a cassette of magnetic audio tape.",,,,,,,,,,,,,,,,,,,,,,,,
+4016,"http://marc21rdf.info/terms/projectedmed#g",1,,,"optical and magnetic sound track on motion picture film",,,g,,,"Sound to accompany a projected graphic is carried on both an optical and magnetic track.",,,,,,,,,,,,,,,,,,,,,,,,
+4017,"http://marc21rdf.info/terms/projectedmed#h",1,,,videotape,,,h,,,"Sound to accompany an item is included as part of a videotape.",,,"Videotape is not ordinarily used to record only sound.",,,,,,,,,,,,,,,,,,,,,
+4018,"http://marc21rdf.info/terms/projectedmed#i",1,,,videodisc,,,i,,,"Sound to accompany an item is included as part of a videodisc.",,,"Videodiscs are not ordinarily used to record only sound. A distinction must be made between videodiscs (e.g., 12 in. laser-scan videodiscs that include video information) and compact discs that are used to record sound only (e.g., 4 3/4 in. audio compact discs). The technology to physically record video or audio information on digital disc systems is the same.",,,,,,,,,,,,,,,,,,,,,
+4019,"http://marc21rdf.info/terms/projectedmed#u",1,,,unknown,,,u,,,"Medium for sound is not known.",,,,,,,,,,,,,,,,,,,,,,,,
+4020,"http://marc21rdf.info/terms/projectedmed#z",1,,,other,,,z,,,"Medium for sound other than no sound (silent), optical sound track on motion picture film, magnetic sound track on motion picture film, magnetic audio tape in cartridge, sound disc, magnetic audio tape on reel, magnetic audio tape in cassette, optical and magnetic sound track onvideotape, videodisc.",,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

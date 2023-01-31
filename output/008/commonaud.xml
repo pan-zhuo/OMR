@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-008: Target audience -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/commonaud#">
+      <dct:title>MARC21-008: Target audience</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: adolescent  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/commonaud#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/commonaud#"/>
+      <skos:prefLabel xml:lang="en">adolescent</skos:prefLabel>
+      <skos:definition xml:lang="en">Young people, approximate ages 14-17.</skos:definition>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/commonaud#d"/>
+   </skos:Concept>
+   <!-- Concept: adult  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/commonaud#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/commonaud#"/>
+      <skos:prefLabel xml:lang="en">adult</skos:prefLabel>
+      <skos:definition xml:lang="en">Intended for adults.</skos:definition>
+      <skos:notation xml:lang="en">e</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/commonaud#e"/>
+   </skos:Concept>
+   <!-- Concept: general  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/commonaud#g" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/commonaud#"/>
+      <skos:prefLabel xml:lang="en">general</skos:prefLabel>
+      <skos:definition xml:lang="en">Of general interest and not aimed at a particular target audience.</skos:definition>
+      <skos:notation xml:lang="en">g</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/commonaud#g"/>
+   </skos:Concept>
+   <!-- Concept: juvenile  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/commonaud#j" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/commonaud#"/>
+      <skos:prefLabel xml:lang="en">juvenile</skos:prefLabel>
+      <skos:definition xml:lang="en">Children and young people, approximate ages 0-15.</skos:definition>
+      <skos:notation xml:lang="en">j</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/commonaud#j"/>
+   </skos:Concept>
+   <!-- Concept: pre-adolescent  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/commonaud#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/commonaud#"/>
+      <skos:prefLabel xml:lang="en">pre-adolescent</skos:prefLabel>
+      <skos:definition xml:lang="en">Young people, approximate ages 9-13.</skos:definition>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/commonaud#c"/>
+   </skos:Concept>
+   <!-- Concept: preschool  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/commonaud#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/commonaud#"/>
+      <skos:prefLabel xml:lang="en">preschool</skos:prefLabel>
+      <skos:definition xml:lang="en">Children, approximate ages 0-5 years.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/commonaud#a"/>
+   </skos:Concept>
+   <!-- Concept: primary  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/commonaud#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/commonaud#"/>
+      <skos:prefLabel xml:lang="en">primary</skos:prefLabel>
+      <skos:definition xml:lang="en">Children, approximate ages 6-8 years.</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/commonaud#b"/>
+   </skos:Concept>
+   <!-- Concept: specialized  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/commonaud#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/commonaud#"/>
+      <skos:prefLabel xml:lang="en">specialized</skos:prefLabel>
+      <skos:definition xml:lang="en">Aimed at a particular audience and the nature of the presentation would make the item of little interest to other audiences.</skos:definition>
+      <skos:notation xml:lang="en">f</skos:notation>
+      <skos:scopeNote xml:lang="en">Examples include: 1) technical material geared to a specialized audience, and 2) items which address a limited audience; for example, the employees of a single organization.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/commonaud#f"/>
+   </skos:Concept>
+   <!-- Concept: unknown or not specified  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/commonaud#%23" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/commonaud#"/>
+      <skos:prefLabel xml:lang="en">unknown or not specified</skos:prefLabel>
+      <skos:definition xml:lang="en">Target audience for which the material is intended is unknown or is not specified.</skos:definition>
+      <skos:notation xml:lang="en">#</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/commonaud#%23"/>
+   </skos:Concept>
+</rdf:RDF>

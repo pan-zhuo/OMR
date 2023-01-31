@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Color characteristics of a videorecording -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/videocol#">
+      <dct:title>MARC21-007: Color characteristics of a videorecording</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: black-and-white  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videocol#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videocol#"/>
+      <skos:prefLabel xml:lang="en">black-and-white</skos:prefLabel>
+      <skos:definition xml:lang="en">Executed in black-and-white.</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videocol#b"/>
+   </skos:Concept>
+   <!-- Concept: mixed  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videocol#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videocol#"/>
+      <skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+      <skos:definition xml:lang="en">Work or collection is a combination of black-and-white, colored, and/or other images.</skos:definition>
+      <skos:notation xml:lang="en">m</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videocol#m"/>
+   </skos:Concept>
+   <!-- Concept: multicolored  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videocol#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videocol#"/>
+      <skos:prefLabel xml:lang="en">multicolored</skos:prefLabel>
+      <skos:definition xml:lang="en">Executed in more than one color.</skos:definition>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videocol#c"/>
+   </skos:Concept>
+   <!-- Concept: not applicable  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videocol#n" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videocol#"/>
+      <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+      <skos:definition xml:lang="en">Item has no images.</skos:definition>
+      <skos:notation xml:lang="en">n</skos:notation>
+      <skos:scopeNote xml:lang="en">E.g., a videorecording with sound only.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videocol#n"/>
+   </skos:Concept>
+   <!-- Concept: one color  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videocol#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videocol#"/>
+      <skos:prefLabel xml:lang="en">one color</skos:prefLabel>
+      <skos:definition xml:lang="en">One color.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:scopeNote xml:lang="en">Not used with videorecordings.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videocol#a"/>
+   </skos:Concept>
+   <!-- Concept: other  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videocol#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videocol#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:definition xml:lang="en">Color other than one color, black-and-white, multicolored, mixed.</skos:definition>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videocol#z"/>
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videocol#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videocol#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Color characteristics of an item are not known.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videocol#u"/>
+   </skos:Concept>
+</rdf:RDF>

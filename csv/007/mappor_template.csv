@@ -1,0 +1,26 @@
+reg_id,uri,status,name,"lexicalAlias (en)","preferred label (en)","alternative label (en)","hidden label (en)","notation (en)","ToolkitLabel (en)","note (en)","definition (en)","ToolkitDefinition (en)","example (en)","scope note (en)","editorial note (en)","change note (en)","history note (en)","has broader","has narrower","related to","is in mapping relation with","has broader match","has narrower match","has related match","has close match","has exact match","top concept of","has subject","is subject of","is primary subject of","has primary subject","subject indicator","symbolic label","preferred symbolic label","alternative symbolic label"
+uri,reg:uri,reg:status,reg:name,reg:lexicalAlias,skos:prefLabel,skos:altLabel,skos:hiddenLabel,skos:notation,rdakit:toolkitLabel,skos:note,skos:definition,rdakit:toolkitDefinition,skos:example,skos:scopeNote,skos:editorialNote,skos:changeNote,skos:historyNote,skos:broader,skos:narrower,skos:related,skos:mappingRelation,skos:broadMatch,skos:narrowMatch,skos:relatedMatch,skos:closeMatch,skos:exactMatch,skos:topConceptOf,skos:subject,skos:isSubjectOf,skos:isPrimarySubjectOf,skos:primarySubject,skos:subjectIndicator,skos:symbol,skos:prefSymbol,skos:altSymbol
+lang,en,,,en,en,en,en,en,en,en,en,en,en,en,en,en,en,,,,,,,,,,,,,,,,,,
+type,uri,property,property,,,,,,,,,,,,,,,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property
+meta,token,mappor,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,label,"MARC21-007: Production/reproduction details of map",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,vocabulary_id,245,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,uri,http://marc21rdf.info/terms/mappor#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,note,"Photographic technique used to produce the cartographic item.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,tags,"Libraries, MARC21",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,base_domain,http://marc21rdf.info/terms/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,type,vocabulary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,agent_id,67,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,mappor,http://marc21rdf.info/terms/mappor#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,owl,http://www.w3.org/2002/07/owl#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,rdfs,http://www.w3.org/2000/01/rdf-schema#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,reg,http://metadataregistry.org/uri/profile/RegAp/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,skos,http://www.w3.org/2004/02/skos/core#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+4214,"mappor:a
+",1,,,"photocopy, blueline print",,,a,,,"A blueline image on a white background and reproduced by the whiteprint process.",,,"Bluelines are made from vellum, film positives, or any translucent or transparent original on which an image has been made.",,,,,,,,,,,,,,,,,,,,,
+4215,mappor:b,1,,,photocopy,,,b,,,Photocopy.,,,,,,,,,,,,,,,,,,,,,,,,
+4216,mappor:c,1,,,pre-production,,,c,,,"Pre-production (proof) copy intended for review.",,,,,,,,,,,,,,,,,,,,,,,,
+4217,mappor:d,1,,,film,,,d,,,"Film copy of the original.",,,,,,,,,,,,,,,,,,,,,,,,
+4218,mappor:u,1,,,unknown,,,u,,,"Production/reproduction details are not known.",,,,,,,,,,,,,,,,,,,,,,,,
+4219,mappor:z,1,,,other,,,z,,,"Production or reproduction details other than photocopy, blueline print, photocopy, pre-production, film.",,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

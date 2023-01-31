@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Dimensions of motion picture -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/motionpicturedim#">
+      <dct:title>MARC21-007: Dimensions of motion picture</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: 16 mm.  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/motionpicturedim#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/motionpicturedim#"/>
+      <skos:prefLabel xml:lang="en">16 mm.</skos:prefLabel>
+      <skos:definition xml:lang="en">Width of the motion picture film is 16 mm.</skos:definition>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/motionpicturedim#d"/>
+   </skos:Concept>
+   <!-- Concept: 28 mm.  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/motionpicturedim#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/motionpicturedim#"/>
+      <skos:prefLabel xml:lang="en">28 mm.</skos:prefLabel>
+      <skos:definition xml:lang="en">Width of the motion picture film is 28 mm.</skos:definition>
+      <skos:notation xml:lang="en">e</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/motionpicturedim#e"/>
+   </skos:Concept>
+   <!-- Concept: 35 mm.  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/motionpicturedim#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/motionpicturedim#"/>
+      <skos:prefLabel xml:lang="en">35 mm.</skos:prefLabel>
+      <skos:definition xml:lang="en">Width of the motion picture film is 35 mm.</skos:definition>
+      <skos:notation xml:lang="en">f</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/motionpicturedim#f"/>
+   </skos:Concept>
+   <!-- Concept: 70 mm.  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/motionpicturedim#g" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/motionpicturedim#"/>
+      <skos:prefLabel xml:lang="en">70 mm.</skos:prefLabel>
+      <skos:definition xml:lang="en">Width of the motion picture film is 70 mm.</skos:definition>
+      <skos:notation xml:lang="en">g</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/motionpicturedim#g"/>
+   </skos:Concept>
+   <!-- Concept: 9.5 mm.  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/motionpicturedim#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/motionpicturedim#"/>
+      <skos:prefLabel xml:lang="en">9.5 mm.</skos:prefLabel>
+      <skos:definition xml:lang="en">Width of the motion picture film is 9.5 mm.</skos:definition>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/motionpicturedim#c"/>
+   </skos:Concept>
+   <!-- Concept: other  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/motionpicturedim#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/motionpicturedim#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:definition xml:lang="en">Dimensions other than standard 8 mm., super 8 mm./single 8 mm., 9.5 mm., 16 mm., 28 mm., 35 mm., 70 mm.</skos:definition>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/motionpicturedim#z"/>
+   </skos:Concept>
+   <!-- Concept: standard 8 mm.  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/motionpicturedim#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/motionpicturedim#"/>
+      <skos:prefLabel xml:lang="en">standard 8 mm.</skos:prefLabel>
+      <skos:definition xml:lang="en">Width of the motion picture film is standard 8 mm.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:scopeNote xml:lang="en">Includes motion pictures termed Mauer 8 mm.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/motionpicturedim#a"/>
+   </skos:Concept>
+   <!-- Concept: super 8 mm./single 8 mm.  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/motionpicturedim#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/motionpicturedim#"/>
+      <skos:prefLabel xml:lang="en">super 8 mm./single 8 mm.</skos:prefLabel>
+      <skos:definition xml:lang="en">Width of the motion picture film is super 8 mm.</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:scopeNote xml:lang="en">Single 8 mm. motion picture film is a Japanese equivalent of super 8 mm. motion picture film.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/motionpicturedim#b"/>
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/motionpicturedim#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/motionpicturedim#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Dimensions are not known.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/motionpicturedim#u"/>
+   </skos:Concept>
+</rdf:RDF>

@@ -1,0 +1,27 @@
+reg_id,uri,status,name,"lexicalAlias (en)","preferred label (en)","alternative label (en)","hidden label (en)","notation (en)","ToolkitLabel (en)","note (en)","definition (en)","ToolkitDefinition (en)","example (en)","scope note (en)","editorial note (en)","change note (en)","history note (en)","has broader","has narrower","related to","is in mapping relation with","has broader match","has narrower match","has related match","has close match","has exact match","top concept of","has subject","is subject of","is primary subject of","has primary subject","subject indicator","symbolic label","preferred symbolic label","alternative symbolic label"
+uri,reg:uri,reg:status,reg:name,reg:lexicalAlias,skos:prefLabel,skos:altLabel,skos:hiddenLabel,skos:notation,rdakit:toolkitLabel,skos:note,skos:definition,rdakit:toolkitDefinition,skos:example,skos:scopeNote,skos:editorialNote,skos:changeNote,skos:historyNote,skos:broader,skos:narrower,skos:related,skos:mappingRelation,skos:broadMatch,skos:narrowMatch,skos:relatedMatch,skos:closeMatch,skos:exactMatch,skos:topConceptOf,skos:subject,skos:isSubjectOf,skos:isPrimarySubjectOf,skos:primarySubject,skos:subjectIndicator,skos:symbol,skos:prefSymbol,skos:altSymbol
+lang,en,,,en,en,en,en,en,en,en,en,en,en,en,en,en,en,,,,,,,,,,,,,,,,,,
+type,uri,property,property,,,,,,,,,,,,,,,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property,property
+meta,token,videocpc,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,label,"MARC21-007: Configuration of playback channels of video",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,vocabulary_id,197,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,uri,http://marc21rdf.info/terms/videocpc#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,note,"Configuration of intended playback channels for the sound portion of a videorecording.",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,tags,"Libraries, MARC21",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,base_domain,http://marc21rdf.info/terms/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,type,vocabulary,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+meta,agent_id,67,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,videocpc,http://marc21rdf.info/terms/videocpc#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,owl,http://www.w3.org/2002/07/owl#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,rdfs,http://www.w3.org/2000/01/rdf-schema#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,reg,http://metadataregistry.org/uri/profile/RegAp/,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+prefix,skos,http://www.w3.org/2004/02/skos/core#,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+3584,videocpc:k,1,,,mixed,,,k,,,"More than one configuration of playback channels for the sound portion is available on a single videorecording.",,,"An example would be a tape with both monaural and stereophonic sound tracks.",,,,,,,,,,,,,,,,,,,,,
+3585,videocpc:m,1,,,monaural,,,m,,,"Configured to be played back on one channel.",,,,,,,,,,,,,,,,,,,,,,,,
+3586,videocpc:n,1,,,"not applicable",,,n,,,"Videorecording has no sound or sound is on separate medium.",,,,,,,,,,,,,,,,,,,,,,,,
+3587,videocpc:q,1,,,"quadraphonic, multichannel, or surround",,,q,,,"Configured to be played back on more than two channels.",,,"Use for Dolby surround sound tracks and other multichannel techniques.",,,,,,,,,,,,,,,,,,,,,
+3588,videocpc:s,1,,,stereophonic,,,s,,,"Configured to be played back on two separate channels.",,,,,,,,,,,,,,,,,,,,,,,,
+3589,videocpc:u,1,,,unknown,,,u,,,"Configuration of playback channels for the sound portion of a videorecording is not known.",,,,,,,,,,,,,,,,,,,,,,,,
+3590,videocpc:z,1,,,other,,,z,,,"Configuration of playback channels other than mixed, monaural, not applicable
+quadraphonic, multichannel, or surround, stereophonic.",,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,

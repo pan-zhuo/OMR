@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Generation of microform -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/microformgen#">
+      <dct:title>MARC21-007: Generation of microform</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: first generation (master)  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/microformgen#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/microformgen#"/>
+      <skos:prefLabel xml:lang="en">first generation (master)</skos:prefLabel>
+      <skos:definition xml:lang="en">Camera master or COM recorder master.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:scopeNote xml:lang="en">Used for all master films that are made on archival stock in accordance with archival productions standards and that are given archival storage under relevant ISO standards.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/microformgen#a"/>
+   </skos:Concept>
+   <!-- Concept: mixed generation  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/microformgen#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/microformgen#"/>
+      <skos:prefLabel xml:lang="en">mixed generation</skos:prefLabel>
+      <skos:definition xml:lang="en">A combination of generations of film.</skos:definition>
+      <skos:notation xml:lang="en">m</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/microformgen#m"/>
+   </skos:Concept>
+   <!-- Concept: printing master  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/microformgen#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/microformgen#"/>
+      <skos:prefLabel xml:lang="en">printing master</skos:prefLabel>
+      <skos:definition xml:lang="en">Any generation employed mainly for the production of other microforms.</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:scopeNote xml:lang="en">Used for all masters that are not manufactured, produced, and stored in accordance with archival standards.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/microformgen#b"/>
+   </skos:Concept>
+   <!-- Concept: service copy  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/microformgen#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/microformgen#"/>
+      <skos:prefLabel xml:lang="en">service copy</skos:prefLabel>
+      <skos:definition xml:lang="en">Microform made from another microform that is intended primarily for use rather than for production of other microforms.</skos:definition>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:scopeNote xml:lang="en">Always used for microopaques.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/microformgen#c"/>
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/microformgen#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/microformgen#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Generation aspect is not known.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/microformgen#u"/>
+   </skos:Concept>
+</rdf:RDF>

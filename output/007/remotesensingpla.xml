@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Platform use category of remote sensing platform -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/remotesensingpla#">
+      <dct:title>MARC21-007: Platform use category of remote sensing platform</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: meteorological  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/remotesensingpla#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/remotesensingpla#"/>
+      <skos:prefLabel xml:lang="en">meteorological</skos:prefLabel>
+      <skos:definition xml:lang="en">Primary use for the platform is to make remote-sensing images of meteorological events and conditions.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/remotesensingpla#a"/>
+   </skos:Concept>
+   <!-- Concept: mixed uses  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/remotesensingpla#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/remotesensingpla#"/>
+      <skos:prefLabel xml:lang="en">mixed uses</skos:prefLabel>
+      <skos:definition xml:lang="en">Platform from which remote-sensing images can be made is designed for a variety of uses.</skos:definition>
+      <skos:notation xml:lang="en">m</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/remotesensingpla#m"/>
+   </skos:Concept>
+   <!-- Concept: not applicable  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/remotesensingpla#n" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/remotesensingpla#"/>
+      <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+      <skos:definition xml:lang="en">Identification of platform use category is not applicable.</skos:definition>
+      <skos:notation xml:lang="en">n</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/remotesensingpla#n"/>
+   </skos:Concept>
+   <!-- Concept: other  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/remotesensingpla#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/remotesensingpla#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:definition xml:lang="en">Platform use category other than meteorological, surface observing, space observing, mixed uses.</skos:definition>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/remotesensingpla#z"/>
+   </skos:Concept>
+   <!-- Concept: space observing  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/remotesensingpla#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/remotesensingpla#"/>
+      <skos:prefLabel xml:lang="en">space observing</skos:prefLabel>
+      <skos:definition xml:lang="en">Primary use for the platform is to make remote-sensing images of space.</skos:definition>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/remotesensingpla#c"/>
+   </skos:Concept>
+   <!-- Concept: surface observing  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/remotesensingpla#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/remotesensingpla#"/>
+      <skos:prefLabel xml:lang="en">surface observing</skos:prefLabel>
+      <skos:definition xml:lang="en">Primary use for the platform is to make remote-sensing images of the surface of a planet, moon, etc. (including the Earth).</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/remotesensingpla#b"/>
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/remotesensingpla#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/remotesensingpla#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Platform use category is not known.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/remotesensingpla#u"/>
+   </skos:Concept>
+</rdf:RDF>

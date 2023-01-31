@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Level of compression of electronic resource -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/electroloc#">
+      <dct:title>MARC21-007: Level of compression of electronic resource</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: lossless  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/electroloc#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/electroloc#"/>
+      <skos:prefLabel xml:lang="en">lossless</skos:prefLabel>
+      <skos:definition xml:lang="en">Lossless compression will allow an electronic resource to be compressed and decompressed with absolute fidelity each time. To be considered lossless, no informational loss may occur during this process.</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:scopeNote xml:lang="en">An example of a lossless compression scheme would be TIFF Group 4 compression employed on bitonal image files.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/electroloc#b"/>
+   </skos:Concept>
+   <!-- Concept: lossy  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/electroloc#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/electroloc#"/>
+      <skos:prefLabel xml:lang="en">lossy</skos:prefLabel>
+      <skos:definition xml:lang="en">Lossy compression schemes employ techniques which average or discard some of the encoded digital information. When the file is decompressed, it will not be an exact replica of the original file.</skos:definition>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:scopeNote xml:lang="en">Examples of lossy compression schemes include JPEG, and Kodak ImagePac (Photo CD), AC-3 (Dolby Digital) and MPEG.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/electroloc#d"/>
+   </skos:Concept>
+   <!-- Concept: mixed  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/electroloc#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/electroloc#"/>
+      <skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+      <skos:definition xml:lang="en">Mixture of techniques has been used to compress various parts of the electronic resource.</skos:definition>
+      <skos:notation xml:lang="en">m</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/electroloc#m"/>
+   </skos:Concept>
+   <!-- Concept: uncompressed  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/electroloc#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/electroloc#"/>
+      <skos:prefLabel xml:lang="en">uncompressed</skos:prefLabel>
+      <skos:definition xml:lang="en">Electronic resource has not been compressed through the use of any compression technique.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/electroloc#a"/>
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/electroloc#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/electroloc#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Compression techniques are not known.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/electroloc#u"/>
+   </skos:Concept>
+</rdf:RDF>

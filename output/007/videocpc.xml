@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Configuration of playback channels of video -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/videocpc#">
+      <dct:title>MARC21-007: Configuration of playback channels of video</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: mixed  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videocpc#k" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videocpc#"/>
+      <skos:prefLabel xml:lang="en">mixed</skos:prefLabel>
+      <skos:definition xml:lang="en">More than one configuration of playback channels for the sound portion is available on a single videorecording.</skos:definition>
+      <skos:notation xml:lang="en">k</skos:notation>
+      <skos:scopeNote xml:lang="en">An example would be a tape with both monaural and stereophonic sound tracks.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videocpc#k"/>
+   </skos:Concept>
+   <!-- Concept: monaural  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videocpc#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videocpc#"/>
+      <skos:prefLabel xml:lang="en">monaural</skos:prefLabel>
+      <skos:definition xml:lang="en">Configured to be played back on one channel.</skos:definition>
+      <skos:notation xml:lang="en">m</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videocpc#m"/>
+   </skos:Concept>
+   <!-- Concept: not applicable  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videocpc#n" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videocpc#"/>
+      <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+      <skos:definition xml:lang="en">Videorecording has no sound or sound is on separate medium.</skos:definition>
+      <skos:notation xml:lang="en">n</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videocpc#n"/>
+   </skos:Concept>
+   <!-- Concept: other  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videocpc#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videocpc#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:definition xml:lang="en">Configuration of playback channels other than mixed, monaural, not applicable
+quadraphonic, multichannel, or surround, stereophonic.</skos:definition>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videocpc#z"/>
+   </skos:Concept>
+   <!-- Concept: quadraphonic, multichannel, or surround  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videocpc#q" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videocpc#"/>
+      <skos:prefLabel xml:lang="en">quadraphonic, multichannel, or surround</skos:prefLabel>
+      <skos:definition xml:lang="en">Configured to be played back on more than two channels.</skos:definition>
+      <skos:notation xml:lang="en">q</skos:notation>
+      <skos:scopeNote xml:lang="en">Use for Dolby surround sound tracks and other multichannel techniques.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videocpc#q"/>
+   </skos:Concept>
+   <!-- Concept: stereophonic  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videocpc#s" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videocpc#"/>
+      <skos:prefLabel xml:lang="en">stereophonic</skos:prefLabel>
+      <skos:definition xml:lang="en">Configured to be played back on two separate channels.</skos:definition>
+      <skos:notation xml:lang="en">s</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videocpc#s"/>
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/videocpc#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/videocpc#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Configuration of playback channels for the sound portion of a videorecording is not known.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/videocpc#u"/>
+   </skos:Concept>
+</rdf:RDF>

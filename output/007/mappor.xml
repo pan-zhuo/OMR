@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Production/reproduction details of map -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/mappor#">
+      <dct:title>MARC21-007: Production/reproduction details of map</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: film  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/mappor#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/mappor#"/>
+      <skos:prefLabel xml:lang="en">film</skos:prefLabel>
+      <skos:definition xml:lang="en">Film copy of the original.</skos:definition>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/mappor#d"/>
+   </skos:Concept>
+   <!-- Concept: other  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/mappor#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/mappor#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:definition xml:lang="en">Production or reproduction details other than photocopy, blueline print, photocopy, pre-production, film.</skos:definition>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/mappor#z"/>
+   </skos:Concept>
+   <!-- Concept: photocopy  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/mappor#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/mappor#"/>
+      <skos:prefLabel xml:lang="en">photocopy</skos:prefLabel>
+      <skos:definition xml:lang="en">Photocopy.</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/mappor#b"/>
+   </skos:Concept>
+   <!-- Concept: photocopy, blueline print  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/mappor#a " xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/mappor#"/>
+      <skos:prefLabel xml:lang="en">photocopy, blueline print</skos:prefLabel>
+      <skos:definition xml:lang="en">A blueline image on a white background and reproduced by the whiteprint process.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:scopeNote xml:lang="en">Bluelines are made from vellum, film positives, or any translucent or transparent original on which an image has been made.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/mappor#a "/>
+   </skos:Concept>
+   <!-- Concept: pre-production  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/mappor#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/mappor#"/>
+      <skos:prefLabel xml:lang="en">pre-production</skos:prefLabel>
+      <skos:definition xml:lang="en">Pre-production (proof) copy intended for review.</skos:definition>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/mappor#c"/>
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/mappor#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/mappor#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Production/reproduction details are not known.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/mappor#u"/>
+   </skos:Concept>
+</rdf:RDF>

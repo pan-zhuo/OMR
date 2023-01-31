@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Literary text of sound recordings -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/musiclit#">
+      <dct:title>MARC21-007: Literary text of sound recordings</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: autobiography  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">autobiography</skos:prefLabel>
+      <skos:definition xml:lang="en">Autobiography</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#a"/>
+   </skos:Concept>
+   <!-- Concept: biography  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">biography</skos:prefLabel>
+      <skos:definition xml:lang="en">Biography</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#b"/>
+   </skos:Concept>
+   <!-- Concept: comedy  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#k" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">comedy</skos:prefLabel>
+      <skos:definition xml:lang="en">Spoken comedy.</skos:definition>
+      <skos:notation xml:lang="en">k</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#k"/>
+   </skos:Concept>
+   <!-- Concept: conference proceedings  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">conference proceedings</skos:prefLabel>
+      <skos:definition xml:lang="en">Conference proceedings</skos:definition>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#c"/>
+   </skos:Concept>
+   <!-- Concept: drama  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">drama</skos:prefLabel>
+      <skos:definition xml:lang="en">Drama</skos:definition>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#d"/>
+   </skos:Concept>
+   <!-- Concept: essays  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">essays</skos:prefLabel>
+      <skos:definition xml:lang="en">Essays.</skos:definition>
+      <skos:notation xml:lang="en">e</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#e"/>
+   </skos:Concept>
+   <!-- Concept: fiction  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">fiction</skos:prefLabel>
+      <skos:definition xml:lang="en">Fiction.</skos:definition>
+      <skos:notation xml:lang="en">f</skos:notation>
+      <skos:scopeNote xml:lang="en">Includes novels, short stories, etc.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#f"/>
+   </skos:Concept>
+   <!-- Concept: folktales  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#o" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">folktales</skos:prefLabel>
+      <skos:definition xml:lang="en">Folktales.</skos:definition>
+      <skos:notation xml:lang="en">o</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#o"/>
+   </skos:Concept>
+   <!-- Concept: history  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#h" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">history</skos:prefLabel>
+      <skos:definition xml:lang="en">History.</skos:definition>
+      <skos:notation xml:lang="en">h</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#h"/>
+   </skos:Concept>
+   <!-- Concept: instruction  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#i" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">instruction</skos:prefLabel>
+      <skos:definition xml:lang="en">Instruction.</skos:definition>
+      <skos:notation xml:lang="en">i</skos:notation>
+      <skos:scopeNote xml:lang="en">Includes instructions on how to accomplish a task, learn an art, etc. (e.g., how to replace a light switch). Not used for language instruction.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#i"/>
+   </skos:Concept>
+   <!-- Concept: interviews  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#t" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">interviews</skos:prefLabel>
+      <skos:definition xml:lang="en">Interviews.</skos:definition>
+      <skos:notation xml:lang="en">t</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#t"/>
+   </skos:Concept>
+   <!-- Concept: item is a musical sound recording  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#%23" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">item is a musical sound recording</skos:prefLabel>
+      <skos:definition xml:lang="en">Item is a musical sound recording</skos:definition>
+      <skos:notation xml:lang="en">#</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#%23"/>
+   </skos:Concept>
+   <!-- Concept: language instruction  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#j" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">language instruction</skos:prefLabel>
+      <skos:definition xml:lang="en">Language instruction.</skos:definition>
+      <skos:notation xml:lang="en">j</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#j"/>
+   </skos:Concept>
+   <!-- Concept: lectures, speeches  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#l" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">lectures, speeches</skos:prefLabel>
+      <skos:definition xml:lang="en">Lectures, speeches.</skos:definition>
+      <skos:notation xml:lang="en">l</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#l"/>
+   </skos:Concept>
+   <!-- Concept: memoirs  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">memoirs</skos:prefLabel>
+      <skos:definition xml:lang="en">Memoirs.</skos:definition>
+      <skos:notation xml:lang="en">m</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#m"/>
+   </skos:Concept>
+   <!-- Concept: not applicable  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#n" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">not applicable</skos:prefLabel>
+      <skos:definition xml:lang="en">Not a sound recording (e.g., printed or manuscript music).</skos:definition>
+      <skos:notation xml:lang="en">n</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#n"/>
+   </skos:Concept>
+   <!-- Concept: other  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:definition xml:lang="en">Literary text for sound recordings other than autobiography, biography, conference proceedings, drama, essays, fiction, reporting, history, instruction, language instruction, comedy, lectures, speeches, memoirs, folktales, poetry, rehearsals, sounds, interviews.</skos:definition>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#z"/>
+   </skos:Concept>
+   <!-- Concept: poetry  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#p" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">poetry</skos:prefLabel>
+      <skos:definition xml:lang="en">Poetry.</skos:definition>
+      <skos:notation xml:lang="en">p</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#p"/>
+   </skos:Concept>
+   <!-- Concept: rehearsals  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#r" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">rehearsals</skos:prefLabel>
+      <skos:definition xml:lang="en">Performances of any of a variety of nonmusical productions.</skos:definition>
+      <skos:notation xml:lang="en">r</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#r"/>
+   </skos:Concept>
+   <!-- Concept: reporting  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#g" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">reporting</skos:prefLabel>
+      <skos:definition xml:lang="en">Reporting.</skos:definition>
+      <skos:notation xml:lang="en">g</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#g"/>
+   </skos:Concept>
+   <!-- Concept: sounds  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/musiclit#s" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/musiclit#"/>
+      <skos:prefLabel xml:lang="en">sounds</skos:prefLabel>
+      <skos:definition xml:lang="en">Sounds.</skos:definition>
+      <skos:notation xml:lang="en">s</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/musiclit#s"/>
+   </skos:Concept>
+</rdf:RDF>

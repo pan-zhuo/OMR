@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-008: Biography -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/bookbio#">
+      <dct:title>MARC21-008: Biography</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: autobiography  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/bookbio#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/bookbio#"/>
+      <skos:prefLabel xml:lang="en">autobiography</skos:prefLabel>
+      <skos:definition xml:lang="en">Autobiography.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/bookbio#a"/>
+   </skos:Concept>
+   <!-- Concept: collective biography  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/bookbio#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/bookbio#"/>
+      <skos:prefLabel xml:lang="en">collective biography</skos:prefLabel>
+      <skos:definition xml:lang="en">Biographical material about more than one individual.</skos:definition>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/bookbio#c"/>
+   </skos:Concept>
+   <!-- Concept: contains biographical information  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/bookbio#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/bookbio#"/>
+      <skos:prefLabel xml:lang="en">contains biographical information</skos:prefLabel>
+      <skos:definition xml:lang="en">Contains biographical information.</skos:definition>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/bookbio#d"/>
+   </skos:Concept>
+   <!-- Concept: individual biography  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/bookbio#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/bookbio#"/>
+      <skos:prefLabel xml:lang="en">individual biography</skos:prefLabel>
+      <skos:definition xml:lang="en">Biography of one individual.</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/bookbio#b"/>
+   </skos:Concept>
+   <!-- Concept: no biographical material  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/bookbio#%23" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/bookbio#"/>
+      <skos:prefLabel xml:lang="en">no biographical material</skos:prefLabel>
+      <skos:definition xml:lang="en">No biographical or autobiographical material.</skos:definition>
+      <skos:notation xml:lang="en">#</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/bookbio#%23"/>
+   </skos:Concept>
+</rdf:RDF>

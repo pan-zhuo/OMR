@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-007: Physical medium of globe -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/globemed#">
+      <dct:title>MARC21-007: Physical medium of globe</dct:title>
+      <dct:description>To be filled from CSV</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794"/>
+   </skos:ConceptScheme>
+   <!-- Concept: leather  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/globemed#v" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/globemed#"/>
+      <skos:prefLabel xml:lang="en">leather</skos:prefLabel>
+      <skos:definition xml:lang="en">Animal skin dressed for use.</skos:definition>
+      <skos:notation xml:lang="en">v</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/globemed#v"/>
+   </skos:Concept>
+   <!-- Concept: metal  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/globemed#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/globemed#"/>
+      <skos:prefLabel xml:lang="en">metal</skos:prefLabel>
+      <skos:definition xml:lang="en">Metal.</skos:definition>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/globemed#d"/>
+   </skos:Concept>
+   <!-- Concept: other  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/globemed#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/globemed#"/>
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:definition xml:lang="en">Physical medium other than paper, wood, stone, metal, synthetic, skin, textile, vinyl, vellum, plaster, leather, parchment.</skos:definition>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/globemed#z"/>
+   </skos:Concept>
+   <!-- Concept: paper  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/globemed#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/globemed#"/>
+      <skos:prefLabel xml:lang="en">paper</skos:prefLabel>
+      <skos:definition xml:lang="en">Any kind of cellulose-based paper.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/globemed#a"/>
+   </skos:Concept>
+   <!-- Concept: parchment  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/globemed#w" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/globemed#"/>
+      <skos:prefLabel xml:lang="en">parchment</skos:prefLabel>
+      <skos:definition xml:lang="en">Skin of a sheep or goat prepared for writing on.</skos:definition>
+      <skos:notation xml:lang="en">w</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/globemed#w"/>
+   </skos:Concept>
+   <!-- Concept: plaster  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/globemed#p" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/globemed#"/>
+      <skos:prefLabel xml:lang="en">plaster</skos:prefLabel>
+      <skos:definition xml:lang="en">Plaster.</skos:definition>
+      <skos:notation xml:lang="en">p</skos:notation>
+      <skos:scopeNote xml:lang="en">Used for mixtures of ground solids and plaster.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/globemed#p"/>
+   </skos:Concept>
+   <!-- Concept: skin  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/globemed#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/globemed#"/>
+      <skos:prefLabel xml:lang="en">skin</skos:prefLabel>
+      <skos:definition xml:lang="en">Skin.</skos:definition>
+      <skos:notation xml:lang="en">f</skos:notation>
+      <skos:scopeNote xml:lang="en">Excludes leather, parchment, and vellum.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/globemed#f"/>
+   </skos:Concept>
+   <!-- Concept: stone  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/globemed#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/globemed#"/>
+      <skos:prefLabel xml:lang="en">stone</skos:prefLabel>
+      <skos:definition xml:lang="en">Stone.</skos:definition>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/globemed#c"/>
+   </skos:Concept>
+   <!-- Concept: synthetic  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/globemed#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/globemed#"/>
+      <skos:prefLabel xml:lang="en">synthetic</skos:prefLabel>
+      <skos:definition xml:lang="en">Man-made substances other than textiles, plastic, and vinyl.</skos:definition>
+      <skos:notation xml:lang="en">e</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/globemed#e"/>
+   </skos:Concept>
+   <!-- Concept: textile  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/globemed#g" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/globemed#"/>
+      <skos:prefLabel xml:lang="en">textile</skos:prefLabel>
+      <skos:definition xml:lang="en">Textile.</skos:definition>
+      <skos:notation xml:lang="en">g</skos:notation>
+      <skos:scopeNote xml:lang="en">Used for all fabrics, whether made from natural or synthetic fibers.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/globemed#g"/>
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/globemed#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/globemed#"/>
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Physical medium of which the globe is made is not known.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/globemed#u"/>
+   </skos:Concept>
+   <!-- Concept: vellum  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/globemed#n" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/globemed#"/>
+      <skos:prefLabel xml:lang="en">vellum</skos:prefLabel>
+      <skos:definition xml:lang="en">Fine-grained unsplit lambskin, kidskin, or calfskin prepared especially for writing or drawing on.</skos:definition>
+      <skos:notation xml:lang="en">n</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/globemed#n"/>
+   </skos:Concept>
+   <!-- Concept: vinyl  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/globemed#l" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/globemed#"/>
+      <skos:prefLabel xml:lang="en">vinyl</skos:prefLabel>
+      <skos:definition xml:lang="en">Physical medium other than paper, wood, stone, metal, synthetic, skin, textile, plaster.</skos:definition>
+      <skos:notation xml:lang="en">l</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/globemed#l"/>
+   </skos:Concept>
+   <!-- Concept: wood  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/globemed#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/globemed#"/>
+      <skos:prefLabel xml:lang="en">wood</skos:prefLabel>
+      <skos:definition xml:lang="en">Wood.</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:scopeNote xml:lang="en">A material that is based on wood particles or fibers may or may not be considered wood. Consider particle board wood.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/globemed#b"/>
+   </skos:Concept>
+</rdf:RDF>
