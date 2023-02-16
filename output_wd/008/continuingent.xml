@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-008: Entry convention of continuing resource -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/continuingent#">
+      <dct:title>MARC21-008: Entry convention of continuing resource</dct:title>
+      <dct:description>Whether the item was cataloged according to successive entry, latest entry, or integrated entry cataloging conventions.</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794" />
+   </skos:ConceptScheme>
+   <!-- Concept: integrated entry  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingent#2" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingent#" />
+      <skos:prefLabel xml:lang="en">integrated entry</skos:prefLabel>
+      <skos:notation xml:lang="en">2</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingent#2" />
+   </skos:Concept>
+   <!-- Concept: latest entry  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingent#1" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingent#" />
+      <skos:prefLabel xml:lang="en">latest entry</skos:prefLabel>
+      <skos:notation xml:lang="en">1</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingent#1" />
+   </skos:Concept>
+   <!-- Concept: successive entry  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingent#0" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingent#" />
+      <skos:prefLabel xml:lang="en">successive entry</skos:prefLabel>
+      <skos:notation xml:lang="en" />
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingent#0" />
+   </skos:Concept>
+</rdf:RDF>

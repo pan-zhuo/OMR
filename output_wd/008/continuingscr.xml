@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-008: Original alphabet or script of title of continuing resource -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/continuingscr#">
+      <dct:title>MARC21-008: Original alphabet or script of title of continuing resource</dct:title>
+      <dct:description>the original alphabet or script of the language of the title on the source item upon which the key title is based.</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794" />
+   </skos:ConceptScheme>
+   <!-- Concept: arabic  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">arabic</skos:prefLabel>
+      <skos:notation xml:lang="en">f</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#f" />
+   </skos:Concept>
+   <!-- Concept: basic roman  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">basic roman</skos:prefLabel>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#a" />
+   </skos:Concept>
+   <!-- Concept: chinese  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">chinese</skos:prefLabel>
+      <skos:notation xml:lang="en">e</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#e" />
+   </skos:Concept>
+   <!-- Concept: cyrillic  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">cyrillic</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#c" />
+   </skos:Concept>
+   <!-- Concept: devanagari  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#j" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">devanagari</skos:prefLabel>
+      <skos:notation xml:lang="en">j</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#j" />
+   </skos:Concept>
+   <!-- Concept: extended roman  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">extended roman</skos:prefLabel>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#b" />
+   </skos:Concept>
+   <!-- Concept: greek  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#g" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">greek</skos:prefLabel>
+      <skos:notation xml:lang="en">g</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#g" />
+   </skos:Concept>
+   <!-- Concept: hebrew  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#h" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">hebrew</skos:prefLabel>
+      <skos:notation xml:lang="en">h</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#h" />
+   </skos:Concept>
+   <!-- Concept: japanese  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">japanese</skos:prefLabel>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#d" />
+   </skos:Concept>
+   <!-- Concept: korean  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#k" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">korean</skos:prefLabel>
+      <skos:notation xml:lang="en">k</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#k" />
+   </skos:Concept>
+   <!-- Concept: no alphabet or script given/no key title  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#%23" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">no alphabet or script given/no key title</skos:prefLabel>
+      <skos:notation xml:lang="en">#</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#%23" />
+   </skos:Concept>
+   <!-- Concept: other  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:definition xml:lang="en">Original alphabet or script of title other than basic Roman, extended Roman, cyrillic, Japanese, Chinese, Arabic, Greek, Hebrew, Thai, Devanagari,Korean, Tamil.</skos:definition>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#z" />
+   </skos:Concept>
+   <!-- Concept: tamil  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#l" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">tamil</skos:prefLabel>
+      <skos:notation xml:lang="en">l</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#l" />
+   </skos:Concept>
+   <!-- Concept: thai  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#i" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">thai</skos:prefLabel>
+      <skos:notation xml:lang="en">i</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#i" />
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingscr#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingscr#" />
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingscr#u" />
+   </skos:Concept>
+</rdf:RDF>

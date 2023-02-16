@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-008: Literary form of book -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/booklit#">
+      <dct:title>MARC21-008: Literary form of book</dct:title>
+      <dct:description>The literary form of an item.</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794" />
+   </skos:ConceptScheme>
+   <!-- Concept: comic strips  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/booklit#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/booklit#" />
+      <skos:prefLabel xml:lang="en">comic strips</skos:prefLabel>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/booklit#c" />
+   </skos:Concept>
+   <!-- Concept: dramas  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/booklit#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/booklit#" />
+      <skos:prefLabel xml:lang="en">dramas</skos:prefLabel>
+      <skos:definition xml:lang="en">Dramas.</skos:definition>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/booklit#d" />
+   </skos:Concept>
+   <!-- Concept: essays  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/booklit#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/booklit#" />
+      <skos:prefLabel xml:lang="en">essays</skos:prefLabel>
+      <skos:definition xml:lang="en">Essays.</skos:definition>
+      <skos:notation xml:lang="en">e</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/booklit#e" />
+   </skos:Concept>
+   <!-- Concept: fiction (not further specified)  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/booklit#1" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/booklit#" />
+      <skos:prefLabel xml:lang="en">fiction (not further specified)</skos:prefLabel>
+      <skos:definition xml:lang="en">Work of fiction but no further identification of the literary form is desired.</skos:definition>
+      <skos:notation xml:lang="en">1</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/booklit#1" />
+   </skos:Concept>
+   <!-- Concept: humor, satires, etc.  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/booklit#h" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/booklit#" />
+      <skos:prefLabel xml:lang="en">humor, satires, etc.</skos:prefLabel>
+      <skos:definition xml:lang="en">Humorous work, satire, or of similar literary form.</skos:definition>
+      <skos:notation xml:lang="en">h</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/booklit#h" />
+   </skos:Concept>
+   <!-- Concept: letters  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/booklit#i" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/booklit#" />
+      <skos:prefLabel xml:lang="en">letters</skos:prefLabel>
+      <skos:definition xml:lang="en">Single letter or collection of correspondence.</skos:definition>
+      <skos:notation xml:lang="en">i</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/booklit#i" />
+   </skos:Concept>
+   <!-- Concept: mixed forms  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/booklit#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/booklit#" />
+      <skos:prefLabel xml:lang="en">mixed forms</skos:prefLabel>
+      <skos:definition xml:lang="en">Represents a variety of literary forms (e.g., poetry and short stories).</skos:definition>
+      <skos:notation xml:lang="en">m</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/booklit#m" />
+   </skos:Concept>
+   <!-- Concept: not fiction (not further specified)  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/booklit#0" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/booklit#" />
+      <skos:prefLabel xml:lang="en">not fiction (not further specified)</skos:prefLabel>
+      <skos:definition xml:lang="en">Not a work of fiction and no further identification of the literary form is desired.</skos:definition>
+      <skos:notation xml:lang="en" />
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/booklit#0" />
+   </skos:Concept>
+   <!-- Concept: novels  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/booklit#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/booklit#" />
+      <skos:prefLabel xml:lang="en">novels</skos:prefLabel>
+      <skos:definition xml:lang="en">Novels.</skos:definition>
+      <skos:notation xml:lang="en">f</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/booklit#f" />
+   </skos:Concept>
+   <!-- Concept: poetry  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/booklit#p" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/booklit#" />
+      <skos:prefLabel xml:lang="en">poetry</skos:prefLabel>
+      <skos:definition xml:lang="en">Poem or collection of poems.</skos:definition>
+      <skos:notation xml:lang="en">p</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/booklit#p" />
+   </skos:Concept>
+   <!-- Concept: short stories  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/booklit#j" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/booklit#" />
+      <skos:prefLabel xml:lang="en">short stories</skos:prefLabel>
+      <skos:definition xml:lang="en">Short story or collection of short stories.</skos:definition>
+      <skos:notation xml:lang="en">j</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/booklit#j" />
+   </skos:Concept>
+   <!-- Concept: speeches  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/booklit#s" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/booklit#" />
+      <skos:prefLabel xml:lang="en">speeches</skos:prefLabel>
+      <skos:definition xml:lang="en">Speech or collection of speeches.</skos:definition>
+      <skos:notation xml:lang="en">s</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/booklit#s" />
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/booklit#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/booklit#" />
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:definition xml:lang="en">Literary form of the item is unknown.</skos:definition>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/booklit#u" />
+   </skos:Concept>
+</rdf:RDF>

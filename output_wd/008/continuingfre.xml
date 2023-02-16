@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rdf:RDF xmlns:dct="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+
+<!-- Scheme: MARC21-008: Frequency of continuing resource -->
+   <skos:ConceptScheme rdf:about="http://fakeIRI.edu/terms/continuingfre">
+      <dct:title>MARC21-008: Frequency of continuing resource</dct:title>
+      <dct:description>The frequency of an item. In the case of integrating resources, updates to an item.</dct:description>
+      <dct:publisher rdf:resource="http://viaf.org/viaf/139541794" />
+   </skos:ConceptScheme>
+   <!-- Concept: annual  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#a" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">annual</skos:prefLabel>
+      <skos:definition xml:lang="en">Once a year.</skos:definition>
+      <skos:notation xml:lang="en">a</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#a" />
+   </skos:Concept>
+   <!-- Concept: biennial  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#g" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">biennial</skos:prefLabel>
+      <skos:definition xml:lang="en">Every two years.</skos:definition>
+      <skos:notation xml:lang="en">g</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#g" />
+   </skos:Concept>
+   <!-- Concept: bimonthly  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#b" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">bimonthly</skos:prefLabel>
+      <skos:definition xml:lang="en">Every two months.</skos:definition>
+      <skos:notation xml:lang="en">b</skos:notation>
+      <skos:scopeNote xml:lang="en">Includes 6, 7, or 8 times a year.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#b" />
+   </skos:Concept>
+   <!-- Concept: biweekly  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#e" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">biweekly</skos:prefLabel>
+      <skos:definition xml:lang="en">Every two weeks.</skos:definition>
+      <skos:notation xml:lang="en">e</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#e" />
+   </skos:Concept>
+   <!-- Concept: continuously updated  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#k" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">continuously updated</skos:prefLabel>
+      <skos:definition xml:lang="en">More frequent than daily.</skos:definition>
+      <skos:notation xml:lang="en">k</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#k" />
+   </skos:Concept>
+   <!-- Concept: daily  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#d" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">daily</skos:prefLabel>
+      <skos:definition xml:lang="en">Once a day.</skos:definition>
+      <skos:notation xml:lang="en">d</skos:notation>
+      <skos:scopeNote xml:lang="en">Includes Saturday and Sunday.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#d" />
+   </skos:Concept>
+   <!-- Concept: monthly  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#m" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">monthly</skos:prefLabel>
+      <skos:notation xml:lang="en">m</skos:notation>
+      <skos:scopeNote xml:lang="en">Includes 9, 10, 11, or 12 times a year.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#m" />
+   </skos:Concept>
+   <!-- Concept: no determinable frequency  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#%23" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">no determinable frequency</skos:prefLabel>
+      <skos:notation xml:lang="en">#</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#%23" />
+   </skos:Concept>
+   <!-- Concept: other  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#z" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">other</skos:prefLabel>
+      <skos:definition xml:lang="en">Frequency other than annual, bimonthly, semiweekly, daily, biweekly, semiannual, biennial, triennial, three times a week, three times a month, continuously updated, monthly, quarterly, semimonthly, three times a year, weekly.</skos:definition>
+      <skos:notation xml:lang="en">z</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#z" />
+   </skos:Concept>
+   <!-- Concept: quarterly  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#q" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">quarterly</skos:prefLabel>
+      <skos:definition xml:lang="en">Every three months.</skos:definition>
+      <skos:notation xml:lang="en">q</skos:notation>
+      <skos:scopeNote xml:lang="en">Includes 4 times a  year.</skos:scopeNote>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#q" />
+   </skos:Concept>
+   <!-- Concept: semiannual  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#f" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">semiannual</skos:prefLabel>
+      <skos:definition xml:lang="en">Twice a year.</skos:definition>
+      <skos:notation xml:lang="en">f</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#f" />
+   </skos:Concept>
+   <!-- Concept: semimonthly  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#s" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">semimonthly</skos:prefLabel>
+      <skos:definition xml:lang="en">Twice a month.</skos:definition>
+      <skos:notation xml:lang="en">s</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#s" />
+   </skos:Concept>
+   <!-- Concept: semiweekly  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#c" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">semiweekly</skos:prefLabel>
+      <skos:definition xml:lang="en">Twice a week.</skos:definition>
+      <skos:notation xml:lang="en">c</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#c" />
+   </skos:Concept>
+   <!-- Concept: three times a month  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#j" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">three times a month</skos:prefLabel>
+      <skos:notation xml:lang="en">j</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#j" />
+   </skos:Concept>
+   <!-- Concept: three times a week  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#i" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">three times a week</skos:prefLabel>
+      <skos:notation xml:lang="en">i</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#i" />
+   </skos:Concept>
+   <!-- Concept: three times a year  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#t" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">three times a year</skos:prefLabel>
+      <skos:notation xml:lang="en">t</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#t" />
+   </skos:Concept>
+   <!-- Concept: triennial  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#h" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">triennial</skos:prefLabel>
+      <skos:definition xml:lang="en">Every three years.</skos:definition>
+      <skos:notation xml:lang="en">h</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#h" />
+   </skos:Concept>
+   <!-- Concept: unknown  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#u" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">unknown</skos:prefLabel>
+      <skos:notation xml:lang="en">u</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#u" />
+   </skos:Concept>
+   <!-- Concept: weekly  -->
+   <skos:Concept rdf:about="http://fakeIRI.edu/terms/continuingfre#w" xml:lang="en">
+      <skos:inScheme rdf:resource="http://fakeIRI.edu/terms/continuingfre#" />
+      <skos:prefLabel xml:lang="en">weekly</skos:prefLabel>
+      <skos:definition xml:lang="en">Once a week.</skos:definition>
+      <skos:notation xml:lang="en">w</skos:notation>
+      <skos:exactMatch rdf:resource="http://marc21rdf.info/terms/continuingfre#w" />
+   </skos:Concept>
+</rdf:RDF>
