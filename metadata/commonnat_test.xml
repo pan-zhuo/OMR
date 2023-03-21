@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="http://datacite.org/schema/kernel-4"
+    xsi:schemaLocation="http://datacite.org/schema/kernel-4 https://schema.datacite.org/meta/kernel-4.4/metadata.xsd">
+    <identifier identifierType="DOI">10.6069/uwlib.55.b.4</identifier>
+    <creators>
+        <creator>
+            <creatorName xml:lang="en" nameType="Organizational">Library of Congress</creatorName>
+            <nameIdentifier nameIdentifierScheme="VIAF" schemeURI="http://viaf.org/viaf/">
+                151962300</nameIdentifier>
+        </creator>
+        <creator>
+            <creatorName xml:lang="en" nameType="Organizational">Metadata Management Associates</creatorName>
+        </creator>
+        <creator>
+            <creatorName xml:lang="en" nameType="Organizational">University of Washington Libraries</creatorName>
+            <nameIdentifier nameIdentifierScheme="VIAF" schemeURI="http://viaf.org/viaf/">
+                139541794</nameIdentifier>
+        </creator>
+    </creators>
+    <titles>
+        <title xml:lang="en">MARC21-008: Nature of contents</title>
+    </titles>
+    <publisher xml:lang="en">University of Washington Libraries</publisher>
+    <publicationYear>2023</publicationYear>
+    <resourceType resourceTypeGeneral="Dataset">Concept Scheme</resourceType>
+    <language>en</language>
+    <relatedIdentifiers>
+        <relatedIdentifier relatedIdentifierType="URL" relationType="IsDerivedFrom">
+        http://marc21rdf.info/terms/commonnat#
+        </relatedIdentifier>
+    </relatedIdentifiers>
+    <formats>
+        <format>application/rdf+xml</format>
+        <format>application/ld+json</format>
+        <format>application/n-triples</format>
+        <format>text/turtle</format>
+        <format>text/html</format>
+    </formats>
+    <version>1-0-0</version>
+    <descriptions>
+        <description xml:lang="en" descriptionType="Abstract">Indicate whether a significant part of the item is or contains certain types of material.</description>
+    </descriptions>
+</resource>
